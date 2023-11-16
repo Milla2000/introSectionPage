@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.headingTop h1 {
+  display: inline-block;
+  margin: 0;
+  padding-right: 3vw;
+  color: black;
+  font-weight: 800;
+  font-size: xx-large;
+  /* left: 20px; */
+}
+
+.headingTop ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  display: inline-block;
+  row-gap: 90px;
+  font-size: 1.3rem;
+}
+
+.headingTop ul a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.headingTop div {
+  display: inline-block;
+  position: absolute;
+  right: 2vw;
+  padding: 10px 10px;
+}
+
+/* .headingTop div li{ */
+/* display: inline-block; */
+/* margin-right: 20px; */
+/* cursor: ; */
+/* } */
+
+.headingTop div li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 10px;
+  /* cursor: pointer; */
+}
+
+.btn1 {
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  padding: 10px 10px;
+  padding: 10px 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  border-radius: 12px;
+  width: 110px;
+}
+.btn1:hover {
+  background-color: #333;
+  color: #f2f2f2;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.btn2 {
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 5px;
+  margin-left: 2vw;
+  border: 2px solid #333;
+  border-radius: 12px;
+  font-size: 1.3rem;
+}
+
+.btn2:hover {
+  background-color: #333;
+  color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  margin-left: 2vw;
+  border: 2px solid #333;
+  border-radius: 12px;
+  font-size: 1.3rem;
+}
+
+.headingTop li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.headingTop a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-end {
+  cursor: default;
+}
+
+.myBody {
+  padding: 5vh 10vw;
+  overflow: hidden; /* Clearfix for floated elements */
+}
+
+.left-side,
+.right-side {
+  width: 48%; /* Adjust as needed */
+  display: inline-block;
+  vertical-align: top bottom;
+}
+
+.left-side {
+  text-align: left;
+  /* background-color: green; */
+  height: 100%;
+}
+
+.right-side {
+  text-align: right;
+  /* contain: content; */
+  /* background-color: red; */
+}
+
+.left-side h1 {
+  margin: 0;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.left-side p {
+  margin: 50px 0;
+  color: hsl(0, 0%, 41%);
+  font-size: 1.3rem;
+}
+
+.btn3 {
+  padding: 15px 20px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 8%);
+  display: inline-block;
+  margin-bottom: 14vh;
+}
+
+.image {
+  max-width: 90%;
+  height: auto;
+}
+
+.image {
+  /* position: absolute; */
+  top: 1vh;
+  width: 38vw;
+  height: 70vh;
+  float: right;
+  /* padding-right: 9vw; */
+  /* padding-bottom: 5vh; */
+}
+
+.mySvg {
+  /* position: absolute; */
+  /* position: relative; */
+  width: 100%;
+  row-gap: 50px;
+  display: inline;
+}
+.mySvg svg {
+  margin-right: 4vw;
+}
+
+/* screen size */
+@media (max-width: 635px) {
+  .right-side {
+    display: none;
+  }
+  .left-side p {
+    margin: 50px 0;
+    color: hsl(0, 0%, 41%);
+    font-size: 1.3rem;
+  }
+  .headingTop ul{
+     display: none;
+  }
+    .headingTop div{
+        display: none;
+        content: ;
+    }
+}
