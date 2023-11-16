@@ -128,7 +128,7 @@ header {
 .right-side {
   width: 48%; /* Adjust as needed */
   display: inline-block;
-  vertical-align: top bottom;
+  vertical-align: top;
 }
 
 .left-side {
@@ -206,11 +206,10 @@ header {
     color: hsl(0, 0%, 41%);
     font-size: 1.3rem;
   }
-  .headingTop ul{
-     display: none;
+  .headingTop ul {
+    display: none;
   }
-    .headingTop div{
-        display: none;
-        content: ;
-    }
+  .headingTop div {
+    display: none;
+  }
 }
